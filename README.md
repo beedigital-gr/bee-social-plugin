@@ -2,13 +2,14 @@
 
 Plugin για το ChatGPT. Σου επιτρέπει να διαχειρίζεσαι πελάτες, προσφορές, PIN, κείμενα σελίδας και παραδείγματα από το dashboard https://client.beedigital.gr/_social/ μέσα από συνομιλία.
 
-## Εγκατάσταση
+## Εγκατάσταση (chatgpt.com)
 
-1. Άνοιξε το ChatGPT → Settings → Plugins.
-2. Πάτα **Add plugin marketplace**.
-3. Βάλε `beedigital-gr/bee-social-plugin`, ref `main`.
-4. Εγκατάστησε το **BeeDigital Social Offers**.
-5. Συνδέσου με το email και τον κωδικό που χρησιμοποιείς στο dashboard.
+1. Άνοιξε το chatgpt.com → **Plugins** (αριστερά) → **Add** → **Add custom MCP server**.
+2. Name: `BeeDigital Social Offers` · Server URL: `https://client.beedigital.gr/_social/mcp/` · Authentication: **OAuth**.
+3. Τσέκαρε «I understand and want to continue» και πάτα **Create as a plugin**.
+4. Στη σελίδα σύνδεσης βάλε το email και τον κωδικό που χρησιμοποιείς στο dashboard και πάτα «Σύνδεση και άδεια».
+
+Στην εφαρμογή Codex μπορείς εναλλακτικά να το προσθέσεις από **Add plugin marketplace** με `beedigital-gr/bee-social-plugin`, ref `main`.
 
 ## Παραδείγματα
 
