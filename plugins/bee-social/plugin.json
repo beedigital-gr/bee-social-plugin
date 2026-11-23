@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "bee-social",
+  "version": "1.0.0",
+  "description": "Manage client offers, PINs and example pages in the BeeDigital social dashboard.",
+  "author": { "name": "BeeDigital", "url": "https://beedigital.gr" },
+  "homepage": "https://beedigital.gr",
+  "keywords": ["beedigital", "social", "offers"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "BeeDigital Social Offers",
+        "shortDescription": "Πελάτες, προσφορές και PIN από το dashboard της BeeDigital",
+        "longDescription": "Δημιουργία και επεξεργασία προσφορών πελατών, PIN, κειμένων σελίδας και παραδειγμάτων στο dashboard https://client.beedigital.gr/_social/.",
+        "developerName": "BeeDigital",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://beedigital.gr"
+      }
+    }
+  }
+}

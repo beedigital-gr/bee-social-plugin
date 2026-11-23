@@ -1,0 +1,12 @@
+{
+  "name": "beedigital",
+  "interface": { "displayName": "BeeDigital" },
+  "plugins": [
+    {
+      "name": "bee-social",
+      "source": { "source": "local", "path": "./plugins/bee-social" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}
